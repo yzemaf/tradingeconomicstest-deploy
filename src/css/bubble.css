@@ -3,7 +3,7 @@
 	width: 50vmin;
 	height: 50vmin;
 	background: hsl(0, 0%, 50%);
-	border: (50vmin * .09) solid hsl(240, 1%, 30%);
+	border: (50vmin * .09) solid hsl(0, 0%, 50%);
 	position: absolute;
 	top: calc(50% - (50vmin * .49));
 	left: calc(50% - (50vmin * .49));
@@ -30,7 +30,7 @@
     display: flex;
     justify-items: center;
     align-items: center;
-	border: (50vmin * .065) solid hsl(276, 100%, 61%);
+	border: (50vmin * .065) solid hsl(0, 0%, 20%);
 	border-radius: 41% 40% 50% 55% /  49% 52% 51% 43%;
 	z-index: -2;
 	animation: rotateBefore 10s infinite linear;
@@ -50,7 +50,7 @@
 	width: calc(100% - (50vmin * .5));
 	height: calc(100% - (50vmin * .5));
 	background: hsl(0, 0%, 82%);
-	border: (50vmin * .05) solid hsl(0, 1%, 75%);
+	border: (50vmin * .05) solid hsl(0, 0%, 82%);
 	border-radius: 42% 63% 51% 60% / 47% 62% 42% 52%;
 	animation: rotateAfter 10s infinite linear;
 }
