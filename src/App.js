@@ -115,6 +115,8 @@ function App() {
         console.log(result);
         if (result.length < 2) {
           setSorry(true);
+        } else {
+          setSorry(false);
         }
         setRawData(IDfy);
         setChartData(allData);
